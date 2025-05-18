@@ -8,7 +8,7 @@ def prim(n):
   #Acima a validação sobre o número primo
 
 def listando_os_priminhos_pois_no_exemplo_eles_eram_apresentados_em_formato_de_lista(k):
-  if not instantece(k, int) or k <= 1:
+  if not isinstance(k, int) or k <= 1:
     print ("N deveria ser um número maior que 1, além de ser um inteiro")
     return []
   primos = []
