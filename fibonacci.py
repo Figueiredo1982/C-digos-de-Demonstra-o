@@ -10,9 +10,9 @@ def fib_lin(n):
     return 1
 #Acima só foi estabelecido "casos base"
 
-  anterior, atual = 0,1
+  anterior, atual = 0, 1
   for i in range(2, n+1):
-    anterior , atual = anterior + atual
+    anterior, atual = atual, anterior + atual
   return atual
 #Acima, além da declaração de duas variáveis ele vai trabalhar com um simples loop 
 
