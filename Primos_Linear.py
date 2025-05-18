@@ -19,6 +19,6 @@ def listando_os_priminhos_pois_no_exemplo_eles_eram_apresentados_em_formato_de_l
     num += 1
   return primos
 
-k = input(int("Digite um valor N inteiro maior que 1 : "))
+k = int(input("Digite um valor N inteiro maior que 1 : "))
 print(f"Os primeiros {k} números primos são: {listando_os_priminhos_pois_no_exemplo_eles_eram_apresentados_em_formato_de_lista(k)}")
     
