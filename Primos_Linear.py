@@ -9,13 +9,13 @@ def prim(n):
 
 def listando_os_priminhos_pois_no_exemplo_eles_eram_apresentados_em_formato_de_lista(k):
   if not instantece(k, int) or k <= 1:
-    print ("K deveria ser um número maior que 1, além de ser um inteiro")
+    print ("N deveria ser um número maior que 1, além de ser um inteiro")
     return []
   primos = []
   num = 2
   while len(primos) < k:
     if prim(num):
-      primos.append(n)
+      primos.append(num)
     num += 1
   return primos
 
